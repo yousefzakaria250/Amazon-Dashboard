@@ -1,0 +1,31 @@
+<div class="table-responsive">
+    <table class="table table-hover table-nowrap text-center table-secondary">
+        <thead>
+            <tr style="background-color:black">
+                <th scope="col" style="color:white">@localizer["Category Name"]</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Category item in Model)
+            {
+                <tr>
+                    <td class ="table-warning text-black"><span class="h4 mb-0">@item.Name</span></td>
+                    <td class="table-warning text-black col-sm-6 col-12 text-sm-end">
+                        <a class="btn mx-1 btn-outline-primary" asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id" asp-route-Name="@item.Name">
+                            <i class="bi bi-pencil"></i>
+                            <span class="pe-0">@localizer["EditBtn"]</span>
+                        </a>
+                        <a href="~/Category/Delete?id=@item.Id" id="deleteBtn" class="btn btn-danger btn-sm btn-square  text-danger-hover " onclick="return confirm('@localizer["deleteMsg"] : @item.Name');">
+                            <i class="bi bi-trash h5 text-white mx-auto"></i>
+                        </a>
+
+
+                    </td>
+                </tr>
+
+            }
+
+        </tbody>
+    </table>
+</div>

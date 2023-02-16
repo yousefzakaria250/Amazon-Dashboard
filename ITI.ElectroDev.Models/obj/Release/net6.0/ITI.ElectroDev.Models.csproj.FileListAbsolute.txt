@@ -1,0 +1,14 @@
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\bin\Release\net6.0\ITI.ElectroDev.Models.deps.json
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\bin\Release\net6.0\ITI.ElectroDev.Models.runtimeconfig.json
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\bin\Release\net6.0\ITI.ElectroDev.Models.dll
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\bin\Release\net6.0\ITI.ElectroDev.Models.pdb
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\obj\Release\net6.0\ITI.ElectroDev.Models.csproj.AssemblyReference.cache
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\obj\Release\net6.0\ITI.ElectroDev.Models.GeneratedMSBuildEditorConfig.editorconfig
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\obj\Release\net6.0\ITI.ElectroDev.Models.AssemblyInfoInputs.cache
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\obj\Release\net6.0\ITI.ElectroDev.Models.AssemblyInfo.cs
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\obj\Release\net6.0\ITI.ElectroDev.Models.csproj.CoreCompileInputs.cache
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\obj\Release\net6.0\ITI.ElectroDev.Models.dll
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\obj\Release\net6.0\refint\ITI.ElectroDev.Models.dll
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\obj\Release\net6.0\ITI.ElectroDev.Models.pdb
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\obj\Release\net6.0\ITI.ElectroDev.Models.genruntimeconfig.cache
+I:\ItI\iti 2022\Final Project -Dashboard- ITI\ITI.ElectroDev.Models\obj\Release\net6.0\ref\ITI.ElectroDev.Models.dll

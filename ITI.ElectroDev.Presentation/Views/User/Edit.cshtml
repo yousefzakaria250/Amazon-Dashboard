@@ -1,0 +1,41 @@
+﻿@model EditUserViewModel
+<h3 style="text-align:center;color:black; margin-top:10px;">@localizer["Welcome to Edit user Page"]</h3>
+<br />
+<br />
+<br />
+<form method="post" asp-controller="User" asp-action="Edit">
+    <div asp-validation-summary="All"></div>
+    <div class="form-group">
+        <label asp-for="Id">@localizer["Id"]</label>
+        <input asp-for ="Id" class="form-control" disabled/>
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="FirstName"></label>
+        <input asp-for ="FirstName" class="form-control"/>
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName"></label>
+        <input asp-for ="LastName" class="form-control"/>
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+     <div class="form-group">
+        <label asp-for="UserName"></label>
+        <input asp-for ="UserName" class="form-control"/>
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+     <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for ="Email" class="form-control"/>
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+   
+    <button type="submit" class="btn btn-success" style="margin:10px">@localizer["Update"]</button>
+    <a class="btn btn-danger" style="margin:10px" asp-action="UsersDetails">@localizer["Cancel"]</a>
+</form>
+
+     
+ 
+
+

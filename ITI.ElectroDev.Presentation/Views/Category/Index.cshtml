@@ -1,0 +1,38 @@
+@model List<Category>
+<header>
+    <div class="container-fluid">
+        <div class="mb-npx">
+            <div class="row align-items-center">
+                <div class="col-sm-6 col-12 mb-4 mb-sm-0">
+                    <!-- Title -->
+                    <h1 class="h4 mb-0 ls-tight">@localizer["cat"]</h1>
+                </div> <!-- Actions -->
+                <div class="col-sm-6 col-12 text-sm-end mb-4" >
+                    <div class="mx-n1">
+                        <a  class="btn d-inline-flex btn-sm btn-warning text-black mt-5 mx-1" asp-controller="Category" asp-action="Add">
+                            <span class=" pe-2"> <i class="bi bi-plus h5  text-white"></i> </span>
+                            <span class="h5 text-white">@localizer["addCat"]</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container-fluid">
+        @if (Model.ToList<Category>().Count != 0)
+        {
+            <partial name="_PagedCategories" model="@Model"></partial>
+        }else{
+            <div class="alert alert-danger text-center" role="alert">
+                <i class="bi bi-exclamation-triangle"></i>
+                @localizer["notCatAdded"]
+
+            </div>
+           
+        }
+            
+    </div>
+</main>
+       

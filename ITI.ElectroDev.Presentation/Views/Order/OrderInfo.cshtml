@@ -1,0 +1,70 @@
+﻿@model OrderDetails
+<div>
+    <h1>Order Details</h1>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class="col-sm-2">
+            FullName:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.User.FirstName)
+            @Html.DisplayFor(model=>model.User.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model=>model.TotalPrice)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model=>model.TotalPrice)
+        </dd>
+        <dt class="col-sm-2">
+            Payment:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PaymentMethod)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+    </dl>
+    @*<dl class="row">
+        <dt class="col-sm-2">
+            <h3>Order Id</h3>
+        </dt>
+        <dd class="col-sm-8">
+            <h2>@Model.Id</h2>
+        </dd>
+        <dt class="col-sm-2">
+            <h3>Customer</h3>
+        </dt>
+        <dd class="col-sm-8">
+            <h2>@Model.User.FirstName @Model.User.LastName</h2>
+        </dd>
+        <dt class="col-sm-2">
+            <h3>Total Price</h3>
+        </dt>
+        <dd class="col-sm-8">
+            <h2>@Model.TotalPrice</h2>
+        </dd>
+        <dt class="col-sm-2">
+            <h3>Payment</h3>
+        </dt>
+        <dd class="col-sm-8">
+            <h2>@Model.Type</h2>
+        </dd>
+        <dt class="col-sm-2">
+            <h3>Order Status</h3>
+        </dt>
+        <dd class="col-sm-8">
+            <h2>@Model.Status</h2>
+        </dd>
+    </dl>*@
+    <a asp-action="Index" asp-controller="Order" class="btn btn-success">Back to List</a>
+</div>

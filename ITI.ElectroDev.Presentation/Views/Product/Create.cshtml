@@ -1,0 +1,66 @@
+﻿@model ProductCreateModel;
+@{
+    ViewData["Title"] = "Add Product";
+}
+
+<h2 class="mt-1">
+    <i class="bi bi-bag-check-fill"></i>
+    @localizer["Add Product"]
+</h2>
+<hr />
+<section class="row">
+    <div class="col-md-8">
+        <form method="post" asp-controller="Product" asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div >
+                <button type="submit" class="btn btn-outline-secondary mt-1" style="background-color:#fc9b12; color:white" >
+                    <i class="bi bi-check"></i>
+                    @localizer["Add"]
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary mt-1">
+                    <i class="bi bi-x"></i>
+                    @localizer["Close"]
+                </a>
+            </div>
+            @* asp-validation-summary =
+            1- ModelOnly===> تستخدم لعرض الإيرور الموجود فى ال AddModelError() .
+            2- All =====> تستخدم لعرض الإيرور فى الفورم كلها *@     
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="validation text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <textarea asp-for="Description" class="form-control" rows="3"> </textarea>
+                <span asp-validation-for="Description" class="validation text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="validation text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Discount</label>
+                <input asp-for="Discount" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="validation text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Images"></label>
+                <input asp-for="Images" class="form-control"  />
+                <span asp-validation-for="Images"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BrandId"></label>
+                <select asp-for="BrandId" class="form-select" aria-label="Default select example" asp-items="@ViewBag.Brands">
+                    <option selected>@localizer["--Select Brand--"]</option>
+                </select>
+                <span asp-validation-for="BrandId"></span>
+            </div>
+        </form>
+    </div>
+</section>

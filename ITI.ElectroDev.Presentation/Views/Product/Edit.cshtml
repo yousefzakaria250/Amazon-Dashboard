@@ -1,0 +1,74 @@
+@model ProductCreateModel
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+
+<h2 class="mt-5">
+    <i class="bi bi-bag-check-fill"></i>
+    @localizer["Edit Product"]
+</h2>
+<hr />
+
+<section class="row">
+    <div class="col-md-8">
+
+        <form method="post" asp-controller="Product" asp-action="Edit" enctype="multipart/form-data">
+            <div>
+                <button type="submit" class="btn btn-warning text-black mt-1 ">
+                    <i class="bi bi-check"></i>
+                    @localizer["Edit"]
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary mt-1">
+                    <i class="bi bi-x"></i>
+                    @localizer["Close"]
+                </a>
+            </div>
+            <div asp-validation-summary="ModelOnly"></div>
+              <input type="hidden" asp-for="id" class="form-control" />
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="validation text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <textarea asp-for="Description" class="form-control" rows="4"> </textarea>
+                <span asp-validation-for="Description" class="validation text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="validation text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Discount"></label>
+                <input asp-for="Discount" class="form-control" />
+                <span asp-validation-for="Discount" class="validation text-danger"></span>
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="validation text-danger"></span>
+
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Images"></label>
+                <input asp-for="Images" class="form-control" />
+                <span asp-validation-for="Images"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="BrandId"></label>
+                <select class="form-control" asp-for="BrandId" aria-label="Default select example" asp-items="@ViewBag.brands">
+                    <option selected>--Select Brand--</option>
+                </select>
+                @*<input type="number" class="form-control" asp-for="BrandId" />*@
+                <span asp-validation-for="BrandId" class="validation  text-danger"></span>
+            </div>
+        </form>
+    </div>
+</section>

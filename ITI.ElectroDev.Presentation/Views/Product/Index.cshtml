@@ -1,0 +1,147 @@
+@model IPagedList<Product>
+@{
+ViewData["Title"] = "Products";
+}
+@section style{
+    <link rel="stylesheet" href="~/Content/PagedList.css" />
+}
+
+<h2 class="mt-5">
+    <i class="bi bi-bag-check-fill"></i>
+    @localizer["Products"]
+</h2>
+<hr />
+
+    <a class="btn btn-outline-secondary" style="background-color:#fc9b12; color:white" asp-controller="Product" asp-action="Create">
+    <i class="bi bi-plus-lg"></i>
+    @localizer["Add Product"]
+</a>
+
+<div class="mt-4 Product">
+
+
+    @if (!Model.Any())
+    {
+    <div class="alert alert-danger" role="alert">
+        <i class="bi bi-exclamation-triangle"></i>
+        @localizer["No Products"]
+    </div>
+    }
+    else
+    {
+        <table class="table table-secondary table-hover" style="color:black;font-weight:bold;font-size:120%"
+           border="5" bordercolor="black" align="center" id="table">
+            <thead>
+                <tr style="background-color:black">
+                    <th scope="col">#</th>
+                    <th scope="col" class="text-light"> @localizer["Name"]</th>
+                    <th scope="col" class="text-light">@localizer["Quantity"]</th>
+                    <th scope="col" class="text-light">@localizer["Price"]</th>
+                    <th scope="col" class="text-light">@localizer["Image"]</th>
+                    <th scope="col" class="text-light">@localizer["Details"]</th>
+                    <th scope="col" class="text-light">@localizer["Delete"]</th>
+                    <th scope="col" class="text-light">@localizer["Edit"]</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @{int index = 1 ;}
+                @foreach (var product in Model.ToList<Product>())
+                {
+                    <tr  class="mt-5" style="color:blue">
+                    <th class="table-warning text-black" scope="row">@index</th>
+                    <td class="table-warning text-black">@product.Name</td>
+                    <td class="table-warning text-black">@product.Quantity</td>
+                    <td class="table-warning text-black">@product.Price</td>
+                        <td class="table-warning text-black">
+                    <img src="~/Images/@product.ProductImages.FirstOrDefault()?.Path" 
+                     class="img-fluid rounded-start" class="img" alt="@product.Name"
+                         border=3 height=100 width=100 />
+                        </td>
+                        <td class="table-warning text-black">
+                            <a asp-action="Details" asp-route-id="@product.Id"
+                       class="btn btn-outline-secondary" style="background-color:#fc9b12; color:white">
+                                <i class="bi bi-camera-reels"></i>
+                                @localizer["Product Details"]
+                            </a>
+                          </td>
+                        <td class="table-warning text-black">
+                          <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-outline-primary">
+                                <i class="bi bi-pencil"></i>
+                                @localizer["Edit Product"]
+                            </a>
+                        </td>
+                        <td class="table-warning text-black">
+
+                            <a href="~/Product/Delete?id=@product.Id" id="deletebtn" onclick="return confirm('Do you Want to delete Product :@product.Name ')" class="btn btn btn-danger" class="alert alert-danger">
+                                <i class="bi bi-trash"></i>
+                                @localizer["Delete Product"]
+                            </a>
+                            </td>
+
+                       
+                        @{
+                            ++index;
+                        }
+                </tr>
+                   
+                }
+            </tbody>
+        </table>
+    }
+@*    <div class="row">
+        @foreach (var product in Model.ToList<Product>())
+        {
+        <div class="col-12">
+           <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-2" >
+                        @if (product.ProductImages == null || product.ProductImages.Count == 0)
+                        {
+                        <h1>@localizer["No Images"]</h1>
+                        }
+                        else
+                        {
+                                <img src="~/Images/@product.ProductImages.FirstOrDefault()?.Path" height="auto"
+                            class="mt-10 img-fluid rounded-start" class="img" alt="@product.Name" />
+                                          
+                        }
+                    </div>
+                    <div class="col-md-10 d-flex flex-column justify-content-between h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">@product.Name</h3>
+                                
+                            <span class="card-text text-justfy">@product.Description</span>
+                            <br>
+                            <span class="card-text"> Quantity : <span style="font-weight:bold">@product.Quantity</span></span>
+                           
+                            <div>
+                                <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-outline-secondary">
+                                    <i class="bi bi-camera-reels"></i>
+                                    @localizer["Product Details"]
+                                </a>
+
+                                <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-outline-primary">
+                                    <i class="bi bi-pencil"></i>
+                                    @localizer["Edit Product"]
+                                </a>
+
+
+                                <a href="~/Product/Delete?id=@product.Id" id="deletebtn" onclick="return confirm('Do you Want to delete Product :@product.Name ')" class="btn btn btn-danger" class="alert alert-danger">
+                                <i class="bi bi-trash"></i>
+                                    @localizer["Delete Product"]
+                                </a>
+                                        
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            }
+
+        </div>
+        *@
+@Html.PagedListPager( Model, PageIndex => Url.Action("Index", new { PageIndex }) ) ;
+</div>

@@ -1,0 +1,52 @@
+﻿@model OrderViewModel
+<div class="alert alert-success" role="alert" style="display:none" id="alert">
+    <h4 class="alert-heading">@localizer["Well done"]</h4>
+    <p>@localizer["alertOrder"].</p>
+    <hr>
+    <p class="mb-0">
+        <a asp-action="Index" asp-controller="Order">@localizer["Click Here"]</a>
+        @localizer["for Details"]
+    </p>
+</div>
+<div class="col-10 mx-auto">
+    <div class="card shadow border-0">
+        <div class="card-body">
+            <div class="row">
+        <form method="post" asp-controller="Order" asp-action="Edit" asp-route-id="@Model.Id" enctype="multipart/form-data"
+              data-ajax="true" data-ajax-complete="OrderAdded" data-ajax-loading="#loader">
+            <div class="form-group">
+                <label asp-for="Type" class="control-label"></label>
+                <select asp-for="Type" class="form-select" aria-label="Default select example">
+                    <option selected>-- Select Type of Payment --</option>
+                    <option value="visa">Visa</option>
+                    <option value="cash">Cash</option>
+                </select>
+                <span asp-validation-for="Type"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <select asp-for="Status" class="form-select" aria-label="Default select example">
+                    <option selected>-- Status --</option>
+                    <option value="sent">Sent</option>
+                    <option value="delivered">Delivered</option>
+                </select>
+                <span asp-validation-for="Type"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Edit" class="btn btn-info" />
+                <a asp-controller="Order" asp-action="Index" class="btn btn-outline-info">Back to List</a>
+            </div>
+        </form>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4" style="text-align:center; padding:100px">
+        <img src="~/img/createLoader.gif" id="loader" style="width:200px;height:200px;display:none" />
+    </div>
+</div>
+<script>
+    function OrderAdded(data) {
+        document.getElementById("alert").style.display = "block";
+    }
+</script>

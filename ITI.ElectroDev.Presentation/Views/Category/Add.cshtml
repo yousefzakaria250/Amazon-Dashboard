@@ -1,0 +1,38 @@
+﻿@model CategoryCreateModel
+<h2>@localizer["Add New Category"]</h2>
+
+<a asp-controller="Category" asp-action="Index">
+    <i class="fa fa-arrow-left " style="font-size:2rem"></i>
+</a>
+<div class="alert alert-success" role="alert" style="display:none;" id="Mgs">
+    <h4 class="alert-heading">@localizer["Well done"]</h4>
+    <p>@localizer["sucAlertAdd"] </p>
+    <hr>
+    <p class="mb-0"><a asp-controller="Category" asp-action="Index">@localizer["BackToCatIndex"]</a>.</p>
+</div>
+<div class="col-10 mx-auto">
+    <div class="card shadow border-0">
+        <div class="card-body">
+            <div class="row">
+                <form method="post" asp-controller="Category" asp-action="Add" enctype="multipart/form-data">
+                   @* <div asp-validation-summary="ModelOnly"></div>*@
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" style="color:red"></span>
+                    </div>
+                    <input type="submit" value="@localizer["Add"]" class="btn d-inline-flex btn-sm btn-warning text-black mt-5 mx-1" />
+                    <div class="d-flex justify-content-center">
+                        <img class="w-20" id="loader" src="~/Images/uploadloader.gif" style="display:none;" />
+                    </div>
+                </form>
+            </div>      
+        </div>
+    </div>
+</div>
+<script>
+    function CategoryAdd(data) {
+        document.getElementById("Mgs")
+            .style.display = "block";
+    }
+</script>

@@ -1,0 +1,57 @@
+﻿@model List<OrderDetails>
+<h1>@localizer["Orders"]</h1>
+<a asp-action="Add" asp-controller="Order" class="btn btn-primary">@localizer["Add New Order"]</a>
+<main>
+    <div class="container-fluid">
+
+        @if (Model.ToList<OrderDetails>().Count != 0)
+        {
+            <table class="table table-secondary table-hover" style="color:black;font-weight:bold;font-size:120%"
+               border="5" bordercolor="black" align="center" id="table">
+                <thead>
+                    <tr style="background-color:black">
+                        <th scope="col" class="text-light">#</th>
+                        <th scope="col" class="text-light">@localizer["Order For User"]</th>
+                        <th scope="col" class="text-light">@localizer["Total Price"]</th>
+                        <th scope="col" class="text-light">@localizer["Payment Type"]</th>
+                        <th scope="col" class="text-light">@localizer["Status"]</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (OrderDetails item in Model)
+                    {
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>@item.User.FirstName @item.User.LastName</td>
+                            <td>@item.TotalPrice</td>
+                            <td>@item.PaymentMethod</td>
+                            <td>@item.Status</td>
+                            <td class="text-end">
+                                <a class ="btn btn-outline-secondary" asp-controller="Order" asp-action="OrderInfo" asp-route-id="@item.Id">
+                                  <i class="bi bi-camera-reels"></i>Details
+                                </a>
+                                <a class="btn btn-outline-primary" asp-controller="Order" asp-action="Edit" asp-route-id="@item.Id">
+                                    <i class="bi bi-pencil"></i>
+                                   @localizer["EditBtn"]
+                                </a>
+                             
+@*                                <a class="btn btn-danger btn btn-sm btn-square  text-danger-hover h3 font-bold " asp-controller="Order" asp-action="Delete" asp-route-id="@item.Id"> <i class="bi bi-trash h3 font-bold text-white"></i></a>
+*@                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div class="alert alert-danger text-center" role="alert">
+                <i class="bi bi-exclamation-triangle"></i>
+                @localizer["notOrdAdded"]
+
+            </div>
+
+        }
+
+</div>
+</main>

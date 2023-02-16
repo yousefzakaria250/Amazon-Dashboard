@@ -1,0 +1,25 @@
+﻿@model Product 
+@{
+    ViewData["Title"] =  Model.Name;
+}
+
+<div class="row justify-content-between">
+
+    <div class="col-md-3 mt-20">
+        <img src="~/Images/@Model.ProductImages.FirstOrDefault()?.Path" alt="@Model.Name" class="img-fluid rounded-start" />   
+    </div>
+    <div class="col-md-7 mt-20">
+        <div>
+            <h1> @Model.Name</h1>
+            <span style="font-weight:bold">Price : @Model.Price $</span><br />
+            @if(Model.Discount != 0){
+            <span style="font-weight:bold">Price after Discount : @Model.DiscountPrice $</span><br />
+            }
+            <span style="font-weight:bold"> Description : @Model.Description</span>
+        </div>
+        <a asp-action="Index" class="btn btn-outline-secondary mt-4">
+            <i class="bi bi-x"></i>
+            @localizer["Close"]
+        </a>
+    </div>
+</div>

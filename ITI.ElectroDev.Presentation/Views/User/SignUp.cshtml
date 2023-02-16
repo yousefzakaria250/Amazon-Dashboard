@@ -1,0 +1,63 @@
+﻿@model UserCreateModel
+
+<style>
+    html, body {
+        background-image: none;
+    }
+
+    #main {
+        border: 1px black solid;
+    }
+
+    input {
+        border: 1px #F3C448 solid;
+    }
+
+    #sign:hover {
+        background-color: green;
+    }
+</style>
+<h3 style="text-align:center;color:black; margin:10px;">@localizer["Welcome To Amazon Dashboard Registration Page"]</h3>
+<form method="post" asp-controller="User" asp-action="SignUp">
+    <div asp-validation-summary="All"></div>
+    <div class="form-group">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" class="form-control" style="border: 1px #F3C448 solid;" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" class="form-control" style="border: 1px #F3C448 solid;" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+     <div class="form-group">
+        <label asp-for="UserName"></label>
+        <input asp-for="UserName" class="form-control" style="border: 1px #F3C448 solid;" />
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+     <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" style="border: 1px #F3C448 solid;" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" class="form-control" style="border: 1px #F3C448 solid;"/>
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+     <div class="form-group">
+        <label asp-for="ConfirmPassword"></label>
+        <input asp-for="ConfirmPassword" class="form-control" style="border: 1px #F3C448 solid;" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    </div>
+   <div>
+       <label asp-for="Role">Choose a Role</label>
+       <select asp-for="Role" asp-items="ViewBag.Roles">
+           <option></option>
+       </select>
+   </div>
+    <button type="submit" class="btn btn-primary" style="margin:10px;background-color:#F3C448;">@localizer["Continue"]</button>
+ @*<div class="m-t-25 m-b--5 align-center">
+ <a asp-controller="User" asp-action="SignIn">You already have a membership?</a>
+   </div>*@
+</form>

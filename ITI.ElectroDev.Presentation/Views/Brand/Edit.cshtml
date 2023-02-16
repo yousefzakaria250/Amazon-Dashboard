@@ -1,0 +1,51 @@
+﻿@model BrandModel
+<h1>@localizer["Edit Brand"]</h1>
+
+<a asp-controller="Brand" asp-action="Index">
+    <i class="bi bi-arrow-left " style="font-size:3rem"></i>
+</a>
+<div class="alert alert-success" role="alert" style="display:none;" id="Mgs">
+    <h4 class="alert-heading">Well done!</h4>
+    <p>@localizer["Successfully Edit"]</p>
+    <hr>
+    <p class="mb-0"><a asp-controller="Brand" asp-action="Index">@localizer["Back To List"]</a>.</p>
+</div>
+<div class="col-10 mx-auto">
+    <div class="card shadow border-0">
+        <div class="card-body">
+            <div class="row">
+                <form data-ajax="true" data-ajax-loading="#loader" data-ajax-complete="BrandUpdated" method="post" asp-route-id="@Model.Id" asp-action="Edit" asp-controller="Brand" enctype="multipart/form-data">
+                    <div class="form-group" hidden>
+                        <label asp-for="Id"></label>
+                        <input type="text" class="form-control" value="@Model.Id"/>
+                        <span asp-validation-for="Id" class="validation"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" value="@Model.Name"/>
+                        <span asp-validation-for="Name" class="validation"></span>
+                    </div>
+
+                    <div>
+                        <label asp-for="CategoryId"></label>
+                        <select asp-for="CategoryId" class="form-select" aria-label="Default select example" asp-items="@ViewBag.Categories">
+                        <option selected>-- Select Category --</option>
+                        </select>
+                        <span asp-validation-for="CategoryId"></span>
+                    </div>
+                    <input class="col-4 btn btn-primary" type="submit"  value="@localizer["Edit Brand"]" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function BrandUpdated(data) {
+        document.getElementById("Mgs")
+            .style.display = "block";
+    }
+</script>
+ 

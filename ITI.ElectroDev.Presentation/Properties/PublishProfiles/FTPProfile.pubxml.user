@@ -1,0 +1,1855 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+BY9pkrIy0WX0vS6sOFo1AAAAAACAAAAAAAQZgAAAAEAACAAAAAxUanNU5ce00HPJTaUtC5o7yUlNbKZgqlgNUf5z+I8PwAAAAAOgAAAAAIAACAAAAD+l1eh5lOvoA+KYB164NAOZ67+RPrG5QfSUJEOReYjQiAAAACw7FRfWQwwUrPLeQ66mozAVlamrXLw7JdvQDSwkmgXWEAAAADMwQR1tNRxDexvMrYHitX1H7Gi9hXODo3gBADF28OKiIQIZdCIICsUqYa2SDEtkF8HwqNtUDXGO5SRTJ9gaVZC</EncryptedPassword>
+    <_PublishTargetUrl>ftp://Amazon-Dashboard.somee.com/www.Amazon-Dashboard.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.json">
+      <publishTime>12/27/2022 21:28:26</publishTime>
+    </File>
+    <File Include="Castle.Core.dll">
+      <publishTime>05/06/2020 13:02:04</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="cs/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="de/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="es/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="fr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="it/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="ITI.ElectroDev.Models.dll">
+      <publishTime>12/27/2022 22:27:12</publishTime>
+    </File>
+    <File Include="ITI.ElectroDev.Models.pdb">
+      <publishTime>12/27/2022 22:27:12</publishTime>
+    </File>
+    <File Include="ITI.ElectroDev.Presentation.deps.json">
+      <publishTime>12/27/2022 22:30:33</publishTime>
+    </File>
+    <File Include="ITI.ElectroDev.Presentation.dll">
+      <publishTime>12/27/2022 22:30:27</publishTime>
+    </File>
+    <File Include="ITI.ElectroDev.Presentation.exe">
+      <publishTime>12/27/2022 22:30:27</publishTime>
+    </File>
+    <File Include="ITI.ElectroDev.Presentation.pdb">
+      <publishTime>12/27/2022 22:30:26</publishTime>
+    </File>
+    <File Include="ITI.ElectroDev.Presentation.runtimeconfig.json">
+      <publishTime>12/27/2022 22:30:29</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="ja/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="JetBrains.Annotations.dll">
+      <publishTime>04/18/2022 18:00:18</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="ko/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="libman.json">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll">
+      <publishTime>10/26/2021 23:52:14</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Razor.Extensions.dll">
+      <publishTime>10/26/2021 23:51:16</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll">
+      <publishTime>10/26/2021 23:53:50</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Razor.Language.dll">
+      <publishTime>10/26/2021 23:51:08</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Razor.dll">
+      <publishTime>10/26/2021 23:51:14</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 01:59:34</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>10/20/2020 20:13:38</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>10/23/2021 20:35:34</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>10/23/2021 20:35:52</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Proxies.dll">
+      <publishTime>10/23/2021 20:36:00</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>10/23/2021 20:37:10</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>10/23/2021 20:37:48</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>10/23/2021 01:47:38</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>10/19/2020 23:51:12</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/13/2020 02:21:34</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/13/2020 02:23:12</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>10/13/2020 02:25:30</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>10/13/2020 02:31:32</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/13/2020 02:27:48</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>11/15/2019 10:54:18</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>11/24/2022 04:10:26</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="pl/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="pt-BR/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Antiforgery.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Authentication.Abstractions.dll">
+      <publishTime>09/28/2022 19:20:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Authentication.Cookies.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Authentication.Core.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Authentication.dll">
+      <publishTime>09/28/2022 19:20:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Authentication.OAuth.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Authorization.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Authorization.Policy.dll">
+      <publishTime>09/28/2022 19:19:50</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Components.Authorization.dll">
+      <publishTime>09/28/2022 19:20:46</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Components.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Components.Forms.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Components.Server.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Components.Web.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Connections.Abstractions.dll">
+      <publishTime>09/28/2022 19:19:50</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.CookiePolicy.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Cors.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <publishTime>09/28/2022 19:19:50</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll">
+      <publishTime>09/28/2022 19:19:54</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.DataProtection.dll">
+      <publishTime>09/28/2022 19:20:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.DataProtection.Extensions.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Diagnostics.Abstractions.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Diagnostics.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Diagnostics.HealthChecks.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.dll">
+      <publishTime>09/28/2022 19:20:22</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.HostFiltering.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Hosting.Abstractions.dll">
+      <publishTime>09/28/2022 19:19:54</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Hosting.dll">
+      <publishTime>09/28/2022 19:20:22</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Html.Abstractions.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Http.Abstractions.dll">
+      <publishTime>09/28/2022 19:20:16</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Http.Connections.Common.dll">
+      <publishTime>09/28/2022 19:19:50</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Http.Connections.dll">
+      <publishTime>09/28/2022 19:19:50</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Http.dll">
+      <publishTime>09/28/2022 19:20:14</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Http.Extensions.dll">
+      <publishTime>09/28/2022 19:20:16</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Http.Features.dll">
+      <publishTime>09/28/2022 19:20:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Http.Results.dll">
+      <publishTime>09/28/2022 19:20:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.HttpLogging.dll">
+      <publishTime>09/28/2022 19:20:14</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.HttpOverrides.dll">
+      <publishTime>09/28/2022 19:19:50</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.HttpsPolicy.dll">
+      <publishTime>09/28/2022 19:19:50</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Identity.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Localization.dll">
+      <publishTime>09/28/2022 19:20:16</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Localization.Routing.dll">
+      <publishTime>09/28/2022 19:20:16</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Metadata.dll">
+      <publishTime>09/28/2022 19:20:14</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.Abstractions.dll">
+      <publishTime>09/28/2022 19:20:46</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.ApiExplorer.dll">
+      <publishTime>09/28/2022 19:19:50</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.Core.dll">
+      <publishTime>09/28/2022 19:20:16</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.Cors.dll">
+      <publishTime>09/28/2022 19:20:14</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.DataAnnotations.dll">
+      <publishTime>09/28/2022 19:20:48</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.dll">
+      <publishTime>09/28/2022 19:20:16</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.Formatters.Json.dll">
+      <publishTime>09/28/2022 19:21:48</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.Formatters.Xml.dll">
+      <publishTime>09/28/2022 19:20:14</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.Localization.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.Razor.dll">
+      <publishTime>09/28/2022 19:20:16</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.RazorPages.dll">
+      <publishTime>09/28/2022 19:20:46</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.TagHelpers.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Mvc.ViewFeatures.dll">
+      <publishTime>09/28/2022 19:20:16</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Razor.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Razor.Runtime.dll">
+      <publishTime>09/28/2022 19:20:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.ResponseCaching.dll">
+      <publishTime>09/28/2022 19:20:16</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.ResponseCompression.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Rewrite.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Routing.Abstractions.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Routing.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Server.HttpSys.dll">
+      <publishTime>09/28/2022 19:20:16</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Server.IIS.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Server.IISIntegration.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Server.Kestrel.Core.dll">
+      <publishTime>09/28/2022 19:20:48</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Server.Kestrel.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll">
+      <publishTime>09/28/2022 19:20:46</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.Session.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.SignalR.Common.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.SignalR.Core.dll">
+      <publishTime>09/28/2022 19:20:46</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.SignalR.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.SignalR.Protocols.Json.dll">
+      <publishTime>09/28/2022 19:19:54</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.StaticFiles.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.WebSockets.dll">
+      <publishTime>09/28/2022 19:19:52</publishTime>
+    </File>
+    <File Include="refs/Microsoft.AspNetCore.WebUtilities.dll">
+      <publishTime>09/28/2022 19:21:10</publishTime>
+    </File>
+    <File Include="refs/Microsoft.CSharp.dll">
+      <publishTime>09/28/2022 18:41:32</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/21/2021 01:59:32</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>09/28/2022 18:42:42</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>09/28/2022 18:42:42</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>09/28/2022 18:42:42</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Configuration.Binder.dll">
+      <publishTime>09/28/2022 18:42:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Configuration.CommandLine.dll">
+      <publishTime>09/28/2022 18:42:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Configuration.dll">
+      <publishTime>09/28/2022 18:42:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Configuration.EnvironmentVariables.dll">
+      <publishTime>09/28/2022 18:42:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Configuration.FileExtensions.dll">
+      <publishTime>09/28/2022 18:42:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Configuration.Ini.dll">
+      <publishTime>09/28/2022 18:43:26</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Configuration.Json.dll">
+      <publishTime>09/28/2022 18:43:26</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Configuration.KeyPerFile.dll">
+      <publishTime>09/28/2022 19:20:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Configuration.UserSecrets.dll">
+      <publishTime>09/28/2022 18:44:10</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Configuration.Xml.dll">
+      <publishTime>09/28/2022 18:44:10</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>09/28/2022 18:44:10</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>09/28/2022 18:44:08</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll">
+      <publishTime>09/28/2022 19:20:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Diagnostics.HealthChecks.dll">
+      <publishTime>09/28/2022 19:20:46</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Features.dll">
+      <publishTime>09/28/2022 19:19:54</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <publishTime>09/28/2022 18:44:08</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.FileProviders.Composite.dll">
+      <publishTime>09/28/2022 18:44:42</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.FileProviders.Embedded.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.FileProviders.Physical.dll">
+      <publishTime>09/28/2022 18:44:10</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.FileSystemGlobbing.dll">
+      <publishTime>09/28/2022 18:44:08</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Hosting.Abstractions.dll">
+      <publishTime>09/28/2022 18:44:08</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Hosting.dll">
+      <publishTime>09/28/2022 18:44:42</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Http.dll">
+      <publishTime>09/28/2022 18:44:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Identity.Core.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Identity.Stores.dll">
+      <publishTime>09/28/2022 19:20:18</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Localization.Abstractions.dll">
+      <publishTime>09/28/2022 19:21:48</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Localization.dll">
+      <publishTime>09/28/2022 19:21:10</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>09/28/2022 18:44:12</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Logging.Configuration.dll">
+      <publishTime>09/28/2022 18:44:12</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Logging.Console.dll">
+      <publishTime>09/28/2022 18:44:46</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Logging.Debug.dll">
+      <publishTime>09/28/2022 18:44:10</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Logging.dll">
+      <publishTime>09/28/2022 18:44:08</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Logging.EventLog.dll">
+      <publishTime>09/28/2022 18:44:44</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Logging.EventSource.dll">
+      <publishTime>09/28/2022 18:44:12</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Logging.TraceSource.dll">
+      <publishTime>09/28/2022 18:44:12</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.ObjectPool.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Options.ConfigurationExtensions.dll">
+      <publishTime>09/28/2022 18:44:42</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Options.DataAnnotations.dll">
+      <publishTime>09/28/2022 18:44:14</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Options.dll">
+      <publishTime>09/28/2022 18:44:42</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.Primitives.dll">
+      <publishTime>09/28/2022 18:44:14</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Extensions.WebEncoders.dll">
+      <publishTime>09/28/2022 19:20:48</publishTime>
+    </File>
+    <File Include="refs/Microsoft.JSInterop.dll">
+      <publishTime>09/28/2022 19:20:48</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Net.Http.Headers.dll">
+      <publishTime>09/28/2022 19:20:20</publishTime>
+    </File>
+    <File Include="refs/Microsoft.VisualBasic.Core.dll">
+      <publishTime>09/28/2022 18:41:34</publishTime>
+    </File>
+    <File Include="refs/Microsoft.VisualBasic.dll">
+      <publishTime>09/28/2022 18:29:06</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Win32.Primitives.dll">
+      <publishTime>09/28/2022 18:41:06</publishTime>
+    </File>
+    <File Include="refs/Microsoft.Win32.Registry.dll">
+      <publishTime>09/28/2022 18:41:32</publishTime>
+    </File>
+    <File Include="refs/mscorlib.dll">
+      <publishTime>09/28/2022 18:41:34</publishTime>
+    </File>
+    <File Include="refs/netstandard.dll">
+      <publishTime>09/28/2022 18:29:44</publishTime>
+    </File>
+    <File Include="refs/System.AppContext.dll">
+      <publishTime>09/28/2022 18:41:06</publishTime>
+    </File>
+    <File Include="refs/System.Buffers.dll">
+      <publishTime>09/28/2022 18:42:34</publishTime>
+    </File>
+    <File Include="refs/System.Collections.Concurrent.dll">
+      <publishTime>09/28/2022 18:41:34</publishTime>
+    </File>
+    <File Include="refs/System.Collections.dll">
+      <publishTime>09/28/2022 18:41:06</publishTime>
+    </File>
+    <File Include="refs/System.Collections.Immutable.dll">
+      <publishTime>09/28/2022 18:41:32</publishTime>
+    </File>
+    <File Include="refs/System.Collections.NonGeneric.dll">
+      <publishTime>09/28/2022 18:41:32</publishTime>
+    </File>
+    <File Include="refs/System.Collections.Specialized.dll">
+      <publishTime>09/28/2022 18:41:54</publishTime>
+    </File>
+    <File Include="refs/System.ComponentModel.Annotations.dll">
+      <publishTime>09/28/2022 18:41:34</publishTime>
+    </File>
+    <File Include="refs/System.ComponentModel.DataAnnotations.dll">
+      <publishTime>09/28/2022 19:08:46</publishTime>
+    </File>
+    <File Include="refs/System.ComponentModel.dll">
+      <publishTime>09/28/2022 18:41:34</publishTime>
+    </File>
+    <File Include="refs/System.ComponentModel.EventBasedAsync.dll">
+      <publishTime>09/28/2022 18:41:34</publishTime>
+    </File>
+    <File Include="refs/System.ComponentModel.Primitives.dll">
+      <publishTime>09/28/2022 18:41:32</publishTime>
+    </File>
+    <File Include="refs/System.ComponentModel.TypeConverter.dll">
+      <publishTime>09/28/2022 18:42:18</publishTime>
+    </File>
+    <File Include="refs/System.Configuration.dll">
+      <publishTime>09/28/2022 18:29:06</publishTime>
+    </File>
+    <File Include="refs/System.Console.dll">
+      <publishTime>09/28/2022 18:41:54</publishTime>
+    </File>
+    <File Include="refs/System.Core.dll">
+      <publishTime>09/28/2022 18:29:06</publishTime>
+    </File>
+    <File Include="refs/System.Data.Common.dll">
+      <publishTime>09/28/2022 18:41:38</publishTime>
+    </File>
+    <File Include="refs/System.Data.DataSetExtensions.dll">
+      <publishTime>09/28/2022 18:42:20</publishTime>
+    </File>
+    <File Include="refs/System.Data.dll">
+      <publishTime>09/28/2022 18:41:38</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.Contracts.dll">
+      <publishTime>09/28/2022 18:41:36</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.Debug.dll">
+      <publishTime>09/28/2022 18:41:38</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>09/28/2022 18:42:34</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.EventLog.dll">
+      <publishTime>09/28/2022 18:44:44</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>09/28/2022 18:41:38</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.Process.dll">
+      <publishTime>09/28/2022 18:41:40</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.StackTrace.dll">
+      <publishTime>09/28/2022 18:42:18</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.TextWriterTraceListener.dll">
+      <publishTime>09/28/2022 18:41:38</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.Tools.dll">
+      <publishTime>09/28/2022 18:41:06</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.TraceSource.dll">
+      <publishTime>09/28/2022 18:41:38</publishTime>
+    </File>
+    <File Include="refs/System.Diagnostics.Tracing.dll">
+      <publishTime>09/28/2022 18:41:42</publishTime>
+    </File>
+    <File Include="refs/System.dll">
+      <publishTime>09/28/2022 18:41:36</publishTime>
+    </File>
+    <File Include="refs/System.Drawing.dll">
+      <publishTime>09/28/2022 18:29:42</publishTime>
+    </File>
+    <File Include="refs/System.Drawing.Primitives.dll">
+      <publishTime>09/28/2022 18:41:36</publishTime>
+    </File>
+    <File Include="refs/System.Dynamic.Runtime.dll">
+      <publishTime>09/28/2022 18:41:36</publishTime>
+    </File>
+    <File Include="refs/System.Formats.Asn1.dll">
+      <publishTime>09/28/2022 18:42:04</publishTime>
+    </File>
+    <File Include="refs/System.Globalization.Calendars.dll">
+      <publishTime>09/28/2022 18:42:18</publishTime>
+    </File>
+    <File Include="refs/System.Globalization.dll">
+      <publishTime>09/28/2022 18:41:36</publishTime>
+    </File>
+    <File Include="refs/System.Globalization.Extensions.dll">
+      <publishTime>09/28/2022 18:41:08</publishTime>
+    </File>
+    <File Include="refs/System.IO.Compression.Brotli.dll">
+      <publishTime>09/28/2022 18:41:06</publishTime>
+    </File>
+    <File Include="refs/System.IO.Compression.dll">
+      <publishTime>09/28/2022 18:41:36</publishTime>
+    </File>
+    <File Include="refs/System.IO.Compression.FileSystem.dll">
+      <publishTime>09/28/2022 18:29:06</publishTime>
+    </File>
+    <File Include="refs/System.IO.Compression.ZipFile.dll">
+      <publishTime>09/28/2022 18:42:18</publishTime>
+    </File>
+    <File Include="refs/System.IO.dll">
+      <publishTime>09/28/2022 18:41:08</publishTime>
+    </File>
+    <File Include="refs/System.IO.FileSystem.AccessControl.dll">
+      <publishTime>09/28/2022 18:41:40</publishTime>
+    </File>
+    <File Include="refs/System.IO.FileSystem.dll">
+      <publishTime>09/28/2022 18:41:44</publishTime>
+    </File>
+    <File Include="refs/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>09/28/2022 18:41:44</publishTime>
+    </File>
+    <File Include="refs/System.IO.FileSystem.Primitives.dll">
+      <publishTime>09/28/2022 18:41:40</publishTime>
+    </File>
+    <File Include="refs/System.IO.FileSystem.Watcher.dll">
+      <publishTime>09/28/2022 18:41:46</publishTime>
+    </File>
+    <File Include="refs/System.IO.IsolatedStorage.dll">
+      <publishTime>09/28/2022 18:41:42</publishTime>
+    </File>
+    <File Include="refs/System.IO.MemoryMappedFiles.dll">
+      <publishTime>09/28/2022 18:42:20</publishTime>
+    </File>
+    <File Include="refs/System.IO.Pipelines.dll">
+      <publishTime>09/28/2022 18:44:14</publishTime>
+    </File>
+    <File Include="refs/System.IO.Pipes.AccessControl.dll">
+      <publishTime>09/28/2022 18:41:44</publishTime>
+    </File>
+    <File Include="refs/System.IO.Pipes.dll">
+      <publishTime>09/28/2022 18:41:42</publishTime>
+    </File>
+    <File Include="refs/System.IO.UnmanagedMemoryStream.dll">
+      <publishTime>09/28/2022 18:41:46</publishTime>
+    </File>
+    <File Include="refs/System.Linq.dll">
+      <publishTime>09/28/2022 18:41:46</publishTime>
+    </File>
+    <File Include="refs/System.Linq.Expressions.dll">
+      <publishTime>09/28/2022 18:41:48</publishTime>
+    </File>
+    <File Include="refs/System.Linq.Parallel.dll">
+      <publishTime>09/28/2022 18:41:08</publishTime>
+    </File>
+    <File Include="refs/System.Linq.Queryable.dll">
+      <publishTime>09/28/2022 18:41:48</publishTime>
+    </File>
+    <File Include="refs/System.Memory.dll">
+      <publishTime>09/28/2022 18:42:56</publishTime>
+    </File>
+    <File Include="refs/System.Net.dll">
+      <publishTime>09/28/2022 18:29:10</publishTime>
+    </File>
+    <File Include="refs/System.Net.Http.dll">
+      <publishTime>09/28/2022 18:41:08</publishTime>
+    </File>
+    <File Include="refs/System.Net.Http.Json.dll">
+      <publishTime>09/28/2022 18:42:04</publishTime>
+    </File>
+    <File Include="refs/System.Net.HttpListener.dll">
+      <publishTime>09/28/2022 18:42:04</publishTime>
+    </File>
+    <File Include="refs/System.Net.Mail.dll">
+      <publishTime>09/28/2022 18:42:04</publishTime>
+    </File>
+    <File Include="refs/System.Net.NameResolution.dll">
+      <publishTime>09/28/2022 18:41:48</publishTime>
+    </File>
+    <File Include="refs/System.Net.NetworkInformation.dll">
+      <publishTime>09/28/2022 18:41:48</publishTime>
+    </File>
+    <File Include="refs/System.Net.Ping.dll">
+      <publishTime>09/28/2022 18:41:08</publishTime>
+    </File>
+    <File Include="refs/System.Net.Primitives.dll">
+      <publishTime>09/28/2022 18:41:50</publishTime>
+    </File>
+    <File Include="refs/System.Net.Requests.dll">
+      <publishTime>09/28/2022 18:41:52</publishTime>
+    </File>
+    <File Include="refs/System.Net.Security.dll">
+      <publishTime>09/28/2022 18:41:50</publishTime>
+    </File>
+    <File Include="refs/System.Net.ServicePoint.dll">
+      <publishTime>09/28/2022 18:42:04</publishTime>
+    </File>
+    <File Include="refs/System.Net.Sockets.dll">
+      <publishTime>09/28/2022 18:42:18</publishTime>
+    </File>
+    <File Include="refs/System.Net.WebClient.dll">
+      <publishTime>09/28/2022 18:42:34</publishTime>
+    </File>
+    <File Include="refs/System.Net.WebHeaderCollection.dll">
+      <publishTime>09/28/2022 18:41:48</publishTime>
+    </File>
+    <File Include="refs/System.Net.WebProxy.dll">
+      <publishTime>09/28/2022 18:42:06</publishTime>
+    </File>
+    <File Include="refs/System.Net.WebSockets.Client.dll">
+      <publishTime>09/28/2022 18:42:40</publishTime>
+    </File>
+    <File Include="refs/System.Net.WebSockets.dll">
+      <publishTime>09/28/2022 18:41:52</publishTime>
+    </File>
+    <File Include="refs/System.Numerics.dll">
+      <publishTime>09/28/2022 18:28:44</publishTime>
+    </File>
+    <File Include="refs/System.Numerics.Vectors.dll">
+      <publishTime>09/28/2022 18:41:48</publishTime>
+    </File>
+    <File Include="refs/System.ObjectModel.dll">
+      <publishTime>09/28/2022 18:41:50</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.DispatchProxy.dll">
+      <publishTime>09/28/2022 18:41:52</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.dll">
+      <publishTime>09/28/2022 18:41:54</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Emit.dll">
+      <publishTime>09/28/2022 18:41:54</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Emit.ILGeneration.dll">
+      <publishTime>09/28/2022 18:41:54</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Emit.Lightweight.dll">
+      <publishTime>09/28/2022 18:41:54</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Extensions.dll">
+      <publishTime>09/28/2022 18:41:10</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Metadata.dll">
+      <publishTime>09/28/2022 18:44:12</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.Primitives.dll">
+      <publishTime>09/28/2022 18:43:04</publishTime>
+    </File>
+    <File Include="refs/System.Reflection.TypeExtensions.dll">
+      <publishTime>09/28/2022 18:42:20</publishTime>
+    </File>
+    <File Include="refs/System.Resources.Reader.dll">
+      <publishTime>09/28/2022 18:43:04</publishTime>
+    </File>
+    <File Include="refs/System.Resources.ResourceManager.dll">
+      <publishTime>09/28/2022 18:43:48</publishTime>
+    </File>
+    <File Include="refs/System.Resources.Writer.dll">
+      <publishTime>09/28/2022 18:43:44</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>09/28/2022 18:42:20</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.CompilerServices.VisualC.dll">
+      <publishTime>09/28/2022 18:43:04</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.dll">
+      <publishTime>09/28/2022 18:43:48</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Extensions.dll">
+      <publishTime>09/28/2022 18:43:46</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Handles.dll">
+      <publishTime>09/28/2022 18:43:24</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.InteropServices.dll">
+      <publishTime>09/28/2022 18:43:04</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>09/28/2022 18:43:04</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Intrinsics.dll">
+      <publishTime>09/28/2022 18:42:34</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Loader.dll">
+      <publishTime>09/28/2022 18:42:20</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Numerics.dll">
+      <publishTime>09/28/2022 18:42:20</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Serialization.dll">
+      <publishTime>09/28/2022 18:29:12</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Serialization.Formatters.dll">
+      <publishTime>09/28/2022 18:43:48</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Serialization.Json.dll">
+      <publishTime>09/28/2022 18:42:22</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Serialization.Primitives.dll">
+      <publishTime>09/28/2022 18:43:48</publishTime>
+    </File>
+    <File Include="refs/System.Runtime.Serialization.Xml.dll">
+      <publishTime>09/28/2022 18:43:46</publishTime>
+    </File>
+    <File Include="refs/System.Security.AccessControl.dll">
+      <publishTime>09/28/2022 18:43:46</publishTime>
+    </File>
+    <File Include="refs/System.Security.Claims.dll">
+      <publishTime>09/28/2022 18:43:46</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>09/28/2022 18:43:06</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.Cng.dll">
+      <publishTime>09/28/2022 18:42:20</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.Csp.dll">
+      <publishTime>09/28/2022 18:43:48</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.Encoding.dll">
+      <publishTime>09/28/2022 18:43:04</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.OpenSsl.dll">
+      <publishTime>09/28/2022 18:43:04</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.Primitives.dll">
+      <publishTime>09/28/2022 18:43:06</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>09/28/2022 18:43:04</publishTime>
+    </File>
+    <File Include="refs/System.Security.Cryptography.Xml.dll">
+      <publishTime>09/28/2022 18:44:16</publishTime>
+    </File>
+    <File Include="refs/System.Security.dll">
+      <publishTime>09/28/2022 18:29:12</publishTime>
+    </File>
+    <File Include="refs/System.Security.Principal.dll">
+      <publishTime>09/28/2022 18:43:04</publishTime>
+    </File>
+    <File Include="refs/System.Security.Principal.Windows.dll">
+      <publishTime>09/28/2022 18:43:46</publishTime>
+    </File>
+    <File Include="refs/System.Security.SecureString.dll">
+      <publishTime>09/28/2022 18:43:48</publishTime>
+    </File>
+    <File Include="refs/System.ServiceModel.Web.dll">
+      <publishTime>09/28/2022 19:09:42</publishTime>
+    </File>
+    <File Include="refs/System.ServiceProcess.dll">
+      <publishTime>09/28/2022 18:29:14</publishTime>
+    </File>
+    <File Include="refs/System.Text.Encoding.CodePages.dll">
+      <publishTime>09/28/2022 18:42:22</publishTime>
+    </File>
+    <File Include="refs/System.Text.Encoding.dll">
+      <publishTime>09/28/2022 18:43:16</publishTime>
+    </File>
+    <File Include="refs/System.Text.Encoding.Extensions.dll">
+      <publishTime>09/28/2022 18:43:12</publishTime>
+    </File>
+    <File Include="refs/System.Text.Encodings.Web.dll">
+      <publishTime>09/28/2022 18:42:54</publishTime>
+    </File>
+    <File Include="refs/System.Text.Json.dll">
+      <publishTime>09/28/2022 18:42:06</publishTime>
+    </File>
+    <File Include="refs/System.Text.RegularExpressions.dll">
+      <publishTime>09/28/2022 18:43:44</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Channels.dll">
+      <publishTime>09/28/2022 18:42:06</publishTime>
+    </File>
+    <File Include="refs/System.Threading.dll">
+      <publishTime>09/28/2022 18:42:22</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Overlapped.dll">
+      <publishTime>09/28/2022 18:42:22</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Tasks.Dataflow.dll">
+      <publishTime>09/28/2022 18:43:46</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Tasks.dll">
+      <publishTime>09/28/2022 18:43:06</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Tasks.Extensions.dll">
+      <publishTime>09/28/2022 18:42:34</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Tasks.Parallel.dll">
+      <publishTime>09/28/2022 18:42:22</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Thread.dll">
+      <publishTime>09/28/2022 18:43:06</publishTime>
+    </File>
+    <File Include="refs/System.Threading.ThreadPool.dll">
+      <publishTime>09/28/2022 18:42:24</publishTime>
+    </File>
+    <File Include="refs/System.Threading.Timer.dll">
+      <publishTime>09/28/2022 18:43:08</publishTime>
+    </File>
+    <File Include="refs/System.Transactions.dll">
+      <publishTime>09/28/2022 18:29:16</publishTime>
+    </File>
+    <File Include="refs/System.Transactions.Local.dll">
+      <publishTime>09/28/2022 18:42:06</publishTime>
+    </File>
+    <File Include="refs/System.ValueTuple.dll">
+      <publishTime>09/28/2022 18:43:16</publishTime>
+    </File>
+    <File Include="refs/System.Web.dll">
+      <publishTime>09/28/2022 18:29:16</publishTime>
+    </File>
+    <File Include="refs/System.Web.HttpUtility.dll">
+      <publishTime>09/28/2022 18:42:14</publishTime>
+    </File>
+    <File Include="refs/System.Windows.dll">
+      <publishTime>09/28/2022 18:29:16</publishTime>
+    </File>
+    <File Include="refs/System.Xml.dll">
+      <publishTime>09/28/2022 18:43:08</publishTime>
+    </File>
+    <File Include="refs/System.Xml.Linq.dll">
+      <publishTime>09/28/2022 18:30:04</publishTime>
+    </File>
+    <File Include="refs/System.Xml.ReaderWriter.dll">
+      <publishTime>09/28/2022 18:44:50</publishTime>
+    </File>
+    <File Include="refs/System.Xml.Serialization.dll">
+      <publishTime>09/28/2022 18:29:20</publishTime>
+    </File>
+    <File Include="refs/System.Xml.XDocument.dll">
+      <publishTime>09/28/2022 18:43:50</publishTime>
+    </File>
+    <File Include="refs/System.Xml.XmlDocument.dll">
+      <publishTime>09/28/2022 18:42:24</publishTime>
+    </File>
+    <File Include="refs/System.Xml.XmlSerializer.dll">
+      <publishTime>09/28/2022 18:43:08</publishTime>
+    </File>
+    <File Include="refs/System.Xml.XPath.dll">
+      <publishTime>09/28/2022 18:43:08</publishTime>
+    </File>
+    <File Include="refs/System.Xml.XPath.XDocument.dll">
+      <publishTime>09/28/2022 18:43:10</publishTime>
+    </File>
+    <File Include="refs/WindowsBase.dll">
+      <publishTime>09/28/2022 19:11:08</publishTime>
+    </File>
+    <File Include="Resources/ar-EG.json">
+      <publishTime>12/27/2022 18:46:49</publishTime>
+    </File>
+    <File Include="Resources/en-US.json">
+      <publishTime>12/27/2022 18:46:49</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="ru/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/15/2019 10:37:04</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>11/15/2019 10:54:20</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/13/2020 02:20:12</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 10:53:44</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 10:53:46</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>11/15/2019 10:56:44</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>11/15/2019 10:54:30</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="tr/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>12/27/2022 22:30:41</publishTime>
+    </File>
+    <File Include="wwwroot/android-chrome-96x96.png">
+      <publishTime>12/27/2022 10:09:12</publishTime>
+    </File>
+    <File Include="wwwroot/apple-touch-icon.png">
+      <publishTime>12/27/2022 10:09:12</publishTime>
+    </File>
+    <File Include="wwwroot/browserconfig.xml">
+      <publishTime>12/27/2022 10:09:12</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/bootstrap.min.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/font-awesome.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/font.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/jqvmap.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/lightbox.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/minimal.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/monthly.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/morris.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/style-responsiv-rtl.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/style-responsive.css">
+      <publishTime>12/11/2022 23:49:28</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/style.css">
+      <publishTime>12/27/2022 17:07:23</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/StyleSheet.css">
+      <publishTime>12/27/2022 17:02:40</publishTime>
+    </File>
+    <File Include="wwwroot/Content/css/_Layout.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/fonts/fontawesome-webfont.eot">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/fonts/fontawesome-webfont.svg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/fonts/fontawesome-webfont.ttf">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/fonts/fontawesome-webfont.woff">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/fonts/fontawesome-webfont.woff2">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/fonts/FontAwesome.otf">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/1.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/2.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/3.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/close.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/g1.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/g2.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/g3.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/g4.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/g5.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/g6.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/g7.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/g8.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/g9.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/mail.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/minimal.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/nav-expand.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/next.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/pass.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/prev.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/images/search-icon.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/bootstrap.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.dcjqaccordion.2.7.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.fileupload.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.min.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.nicescroll.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.scrollTo.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.slimscroll.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.vmap.asia.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.vmap.australia.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.vmap.europe.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.vmap.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.vmap.sampledata.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery.vmap.world.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/jquery2.0.3.min.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/lightbox-plus-jquery.min.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/monthly.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/morris.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/raphael-min.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/script.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/js/scripts.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Content/PagedList.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/favicon-16x16.png">
+      <publishTime>12/27/2022 10:09:12</publishTime>
+    </File>
+    <File Include="wwwroot/favicon-32x32.png">
+      <publishTime>12/27/2022 10:09:12</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>12/27/2022 10:09:12</publishTime>
+    </File>
+    <File Include="wwwroot/favicon_package_v0.16.zip">
+      <publishTime>12/27/2022 10:09:12</publishTime>
+    </File>
+    <File Include="wwwroot/Images/0112e24d-762d-46b2-89d5-505396e529931.PNG">
+      <publishTime>12/19/2022 11:48:51</publishTime>
+    </File>
+    <File Include="wwwroot/Images/1.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/1b07d68b-f6d9-4bf5-bded-5396dd4981272.jpg">
+      <publishTime>12/23/2022 23:41:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/39fcfcad-980e-425b-9f12-756f3144de5fCapture.PNG">
+      <publishTime>12/23/2022 00:12:34</publishTime>
+    </File>
+    <File Include="wwwroot/Images/3fd7a171-0301-4e37-8d31-a2208f0d78fd5.jpg">
+      <publishTime>12/23/2022 23:41:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/44410a0b-8fc3-4413-bbe5-0b914c9cfe9cOIP %281%29.jpg">
+      <publishTime>12/11/2022 23:26:57</publishTime>
+    </File>
+    <File Include="wwwroot/Images/4d3795dc-6547-42d0-9ad2-75e47d5202a311.PNG">
+      <publishTime>12/19/2022 11:48:51</publishTime>
+    </File>
+    <File Include="wwwroot/Images/5574a599-d775-49d6-b302-ae1029a6e43dCapture.PNG">
+      <publishTime>12/25/2022 22:02:48</publishTime>
+    </File>
+    <File Include="wwwroot/Images/5fe0d8f3-ddf7-497f-9bee-1272eeec28b92.jpg">
+      <publishTime>12/23/2022 23:41:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/6a538340-e771-4d92-848c-719aeb2438d3WhatsApp Image 2022-12-10 at 2.35.08 PM %281%29.jpeg">
+      <publishTime>12/11/2022 23:28:23</publishTime>
+    </File>
+    <File Include="wwwroot/Images/732135f2-36d3-4d77-90b1-4fdfc32db1b8Capture.PNG">
+      <publishTime>12/19/2022 13:18:24</publishTime>
+    </File>
+    <File Include="wwwroot/Images/76c1297a-5f98-419e-a2b7-0c5f1e8926752.PNG">
+      <publishTime>12/19/2022 11:48:51</publishTime>
+    </File>
+    <File Include="wwwroot/Images/7b7748e0-b586-40f0-aa7e-3b46c661b983now.PNG">
+      <publishTime>12/26/2022 17:41:24</publishTime>
+    </File>
+    <File Include="wwwroot/Images/8af585e3-deb7-470f-ae06-faa8898ae53d11.PNG">
+      <publishTime>12/19/2022 11:48:51</publishTime>
+    </File>
+    <File Include="wwwroot/Images/931ce05f-6611-47dc-8025-d90855584c9d61i8Vjb17SL._AC_UL320_.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/9609b614-86ac-4d05-b04a-da1b2a1607a9Capture.PNG">
+      <publishTime>12/27/2022 10:25:55</publishTime>
+    </File>
+    <File Include="wwwroot/Images/a187bc1b-e446-4a5f-a9c6-1222d597c4fcproduct07.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/a26b4c1c-7c47-4081-a120-470e0ae6901aOIP %282%29.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/amazonblack.png">
+      <publishTime>12/26/2022 17:41:24</publishTime>
+    </File>
+    <File Include="wwwroot/Images/b05008b6-b1fe-44f6-b4ed-2acdcd6d07a612.PNG">
+      <publishTime>12/19/2022 11:48:51</publishTime>
+    </File>
+    <File Include="wwwroot/Images/be17095a-620b-4f64-9b36-7af5e2a9951fdownload %281%29.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/c74e7a8c-4110-4419-9619-9b1c18b83536avatar_hat.jpg">
+      <publishTime>12/23/2022 23:41:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/c92df921-1ab3-40c8-81e9-64bef7511f9e2.PNG">
+      <publishTime>12/19/2022 11:48:51</publishTime>
+    </File>
+    <File Include="wwwroot/Images/cc98bbc5-08ad-4b78-94b9-d95e22e5dadd11.PNG">
+      <publishTime>12/19/2022 11:48:51</publishTime>
+    </File>
+    <File Include="wwwroot/Images/cf17a757-6aa0-4fc7-b090-c5ab5eee1994product07.png">
+      <publishTime>12/11/2022 23:00:51</publishTime>
+    </File>
+    <File Include="wwwroot/Images/d3151cd6-a07f-4edc-a65b-1c5512d5aa623.PNG">
+      <publishTime>12/19/2022 11:48:51</publishTime>
+    </File>
+    <File Include="wwwroot/Images/e1b8dc81-5e4b-493d-bcea-b5b45db445ec1.PNG">
+      <publishTime>12/19/2022 11:48:51</publishTime>
+    </File>
+    <File Include="wwwroot/Images/ef05d39f-6e57-486e-938f-eaa67d8e4f53Screenshot %2868%29.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/f5cb3891-bb13-4676-8090-0e4b08881c201.PNG">
+      <publishTime>12/19/2022 11:48:51</publishTime>
+    </File>
+    <File Include="wwwroot/Images/fa93b826-d308-43e4-9991-04d1900f8896Screenshot %2865%29.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/fa93b826-d308-43e4-9991-04d1900f8896Screenshot %28655%29.png">
+      <publishTime>12/27/2022 10:43:29</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Images/053ea7e7-8fb4-4aaa-8334-4a26db902c92download.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Images/102d923d-8bcc-4926-ab4e-1716622c4d00download %281%29.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Images/2989a85e-bf06-419b-ada2-228d698dd896download.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Images/6ab4f2df-9c76-4b8e-9557-210fd2a2dedbdownload.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Images/6c0b1d26-8b78-4522-ad1c-4d61ce490f31download.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Images/6d68fb1d-c17e-49e1-88fe-811bc87e95a6solution2-en.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Images/6e2255c8-cabf-4914-8741-60672b66bb8ddownload %281%29.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Images/71ff006f-c980-47e6-88f6-9955ac25e7b5OIP %282%29.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Images/83bcf398-06c8-40ad-a784-b8e4039c49f3download.jpg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Images/98f8ea98-c678-48f2-94c3-f1aeb4ff5fd8problem1-en.png">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/bootstrap-icons/bootstrap-icons.svg">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/bootstrap-icons/font/bootstrap-icons.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/bootstrap-icons/font/bootstrap-icons.json">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/bootstrap-icons/font/bootstrap-icons.min.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/bootstrap-icons/font/fonts/bootstrap-icons.woff">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/bootstrap-icons/font/fonts/bootstrap-icons.woff2">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.css.map">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.min.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.min.css.map">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.rtl.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.rtl.css.map">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.rtl.min.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.css.map">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.min.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.min.css.map">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.rtl.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-utilities.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-utilities.css.map">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-utilities.min.css">
+      <publishTime>12/09/2022 11:23:26</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-utilities.min.css.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-utilities.rtl.css">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap.css">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap.css.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap.min.css">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap.min.css.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap.rtl.css">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap.rtl.css.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap.rtl.min.css">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/css/bootstrap.rtl.min.css.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.bundle.js">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.bundle.js.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.bundle.min.js">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.bundle.min.js.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.esm.js">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.esm.js.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.esm.min.js">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.esm.min.js.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.js">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.js.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.min.js">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/js/bootstrap.min.js.map">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/bootstrap-grid.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/bootstrap-reboot.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/bootstrap-utilities.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/bootstrap.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/forms/_floating-labels.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/forms/_form-check.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/forms/_form-control.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/forms/_form-range.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/forms/_form-select.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/forms/_form-text.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/forms/_input-group.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/forms/_labels.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/forms/_validation.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/helpers/_clearfix.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/helpers/_color-bg.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/helpers/_colored-links.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/helpers/_position.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/helpers/_ratio.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/helpers/_stacks.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/helpers/_stretched-link.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/helpers/_text-truncation.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/helpers/_visually-hidden.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/helpers/_vr.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_alert.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_backdrop.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_banner.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_border-radius.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_box-shadow.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_breakpoints.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_buttons.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_caret.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_clearfix.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_color-scheme.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_container.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_deprecate.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_forms.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_gradients.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_grid.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_image.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_list-group.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_lists.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_pagination.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_reset-text.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_resize.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_table-variants.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_text-truncate.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_transition.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_utilities.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/mixins/_visually-hidden.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/utilities/_api.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/vendor/_rfs.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_accordion.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_alert.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_badge.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_breadcrumb.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_button-group.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_buttons.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_card.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_carousel.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_close.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_containers.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_dropdown.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_forms.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_functions.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_grid.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_helpers.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_images.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_list-group.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_maps.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_mixins.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_modal.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_nav.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_navbar.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_offcanvas.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_pagination.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_placeholders.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_popover.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_progress.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_reboot.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_root.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_spinners.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_tables.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_toasts.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_tooltip.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_transitions.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_type.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_utilities.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/lib/twitter-bootstrap/scss/_variables.scss">
+      <publishTime>12/09/2022 11:23:27</publishTime>
+    </File>
+    <File Include="wwwroot/mstile-150x150.png">
+      <publishTime>12/27/2022 10:09:12</publishTime>
+    </File>
+    <File Include="wwwroot/safari-pinned-tab.svg">
+      <publishTime>12/27/2022 10:09:12</publishTime>
+    </File>
+    <File Include="wwwroot/site.webmanifest">
+      <publishTime>12/27/2022 10:09:12</publishTime>
+    </File>
+    <File Include="X.PagedList.dll">
+      <publishTime>05/16/2022 15:48:00</publishTime>
+    </File>
+    <File Include="X.PagedList.Mvc.Core.dll">
+      <publishTime>05/16/2022 15:48:04</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="zh-Hans/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <publishTime>10/14/2021 20:42:34</publishTime>
+    </File>
+    <File Include="zh-Hant/Microsoft.CodeAnalysis.resources.dll">
+      <publishTime>10/14/2021 20:30:42</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

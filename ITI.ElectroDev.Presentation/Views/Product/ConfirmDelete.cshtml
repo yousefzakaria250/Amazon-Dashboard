@@ -1,0 +1,16 @@
+﻿
+
+
+<div  class="mt-10">
+<h2>Confirm Delete</h2>
+<h4>Are You Sure To Delete This Product : @Model.Name</h4>
+<a class="btn  btn-danger mt-4" asp-controller="Product" asp-action="Delete" asp-route-id="@Model.ID">
+    <i class="bi bi-trash"></i>
+    Yes
+</a>
+<a class="btn btn-primary mt-4" asp-controller="Product" asp-action="Index">
+    <i class="bi bi-x"></i>
+    Cancel
+</a>
+
+</div>
